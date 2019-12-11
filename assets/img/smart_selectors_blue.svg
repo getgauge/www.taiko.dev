@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="460" height="290" viewBox="0 0 460 290">
+  <title>smart_selectors_blue</title>
+  <g>
+    <rect x="65.5" y="18.5" width="335" height="255" rx="7.5" fill="#fff"/>
+    <path d="M393,21a5.0057,5.0057,0,0,1,5,5V266a5.0057,5.0057,0,0,1-5,5H73a5.0057,5.0057,0,0,1-5-5V26a5.0057,5.0057,0,0,1,5-5H393m0-5H73A10,10,0,0,0,63,26V266a10,10,0,0,0,10,10H393a10,10,0,0,0,10-10V26a10,10,0,0,0-10-10Z" fill="#25282d"/>
+  </g>
+  <path d="M403,40H63V25A10,10,0,0,1,73,15H393a10,10,0,0,1,10,10Z" fill="#25282d"/>
+  <g>
+    <rect x="65.5" y="39.5" width="335" height="29" fill="#fff"/>
+    <path d="M398,42V66H68V42H398m5-5H63V71H403V37Z" fill="#25282d"/>
+  </g>
+  <rect x="133.5" y="98.5" width="200" height="66" fill="#fff" stroke="#25282d" stroke-linejoin="round" stroke-width="5"/>
+  <rect x="133.5" y="184.5" width="200" height="66" fill="#fff" stroke="#25282d" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="80" cy="29" r="5" fill="#fff"/>
+  <circle cx="95" cy="29" r="5" fill="#fff"/>
+  <circle cx="110" cy="29" r="5" fill="#fff"/>
+  <polyline points="137.5 89.5 118.5 89.5 118.5 173.5 137.5 173.5" fill="none" stroke="#2bd3ef" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <polyline points="327.5 89.5 346.5 89.5 346.5 173.5 327.5 173.5" fill="none" stroke="#2bd3ef" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <g>
+    <g>
+      <path d="M116,59.5a5.5,5.5,0,0,1,0-11H349a5.5,5.5,0,0,1,0,11Z" fill="#fff"/>
+      <path d="M349,51a3,3,0,0,1,0,6H116a3,3,0,0,1,0-6H349m0-5H116a8,8,0,0,0,0,16H349a8,8,0,0,0,0-16Z" fill="#25282d"/>
+    </g>
+    <line x1="321.5" y1="46" x2="321.5" y2="62" fill="#fff" stroke="#25282d" stroke-miterlimit="10" stroke-width="5"/>
+  </g>
+</svg>
