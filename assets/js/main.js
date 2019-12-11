@@ -37,7 +37,6 @@ function gotoTop() {
   const sideNav = document.querySelector('.nav-list'),
     toggleNavBtn = document.querySelector('.toggle-nav'),
     burger = document.querySelector('.burger'),
-    pageOverlay = document.querySelector('.overlay'),
     navLinks = document.querySelectorAll(".link"),
     body = document.querySelector('body'),
     html = document.querySelector('html');     
@@ -72,7 +71,6 @@ function gotoTop() {
 
   // Event listeners
   toggleNavBtn.addEventListener('click', toggleNav);
-  pageOverlay.addEventListener('click', toggleNav);
 
   // (on mobile) close nav menu when link is clicked
   // this is useful on mobile when clicking an anchor tag on the current page (eg. index.html#last-section)
