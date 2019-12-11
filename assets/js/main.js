@@ -3,7 +3,7 @@ function copyCommand() {
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
-  
+
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copied: " + copyText.value;
 }
@@ -14,7 +14,10 @@ function outFunc() {
 }
 
 
-window.onscroll = function() {headerNav(); gotoTop();}
+window.onscroll = function () {
+  headerNav();
+  gotoTop();
+}
 
 function headerNav() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -39,7 +42,7 @@ function gotoTop() {
     burger = document.querySelector('.burger'),
     navLinks = document.querySelectorAll(".link"),
     body = document.querySelector('body'),
-    html = document.querySelector('html');     
+    html = document.querySelector('html');
 
   // Disable page scroll
   function disablePageScroll() {
@@ -82,23 +85,23 @@ function gotoTop() {
 
 
   // when browser is resized (past breakpoint) reset to defaults
-  (function() {
+  (function () {
 
     window.addEventListener("resize", resizeThrottler, false);
     let resizeTimeout;
 
     function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
-      if ( !resizeTimeout ) {
-        resizeTimeout = setTimeout(function() {
+      if (!resizeTimeout) {
+        resizeTimeout = setTimeout(function () {
           resizeTimeout = null;
           actualResizeHandler();
-       
-         // The actualResizeHandler will execute at a rate of 15fps
-         }, 66);
+
+          // The actualResizeHandler will execute at a rate of 15fps
+        }, 66);
       }
     }
-  
+
     function actualResizeHandler() {
       // handle the resize event
 
@@ -107,11 +110,11 @@ function gotoTop() {
 
       // If resized greater than BREAKPOINT (default: 800px), then reset nav functions
       if (width >= 800) {
-        toDefaults();      
-      }        
+        toDefaults();
+      }
     }
-  
+
   }());
-  
+
 
 })();

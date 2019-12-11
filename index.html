@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
@@ -12,8 +13,9 @@
   <link href="assets/img/taiko_favicon.ico" rel="icon">
 
   <!-- Bootstrap CSS File -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <!-- Main Stylesheet File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/navbar.css" rel="stylesheet">
@@ -26,30 +28,41 @@
   ============================-->
   <header id="header">
 
-     <div class="container-fluid">
+    <div class="container-fluid">
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span>TAIKO</span></a></h1>
+        <h1 class="text-light">
+          <a href="#intro" class="scrollto">
+            <span>TAIKO</span></a>
+        </h1>
         <!-- <a href="#header" class="scrollto"><img src="assets/img/taiko-logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav class="nav main-nav float-right d-lg-block">
-          <button class="toggle-nav" type="button" aria-label="Toggle Menu">
-              <div class="burger -squeeze -offset">
-                <span class="burger-lines"></span>
-              </div>
-            </button>
+        <button class="toggle-nav" type="button" aria-label="Toggle Menu">
+          <div class="burger -squeeze -offset">
+            <span class="burger-lines"></span>
+          </div>
+        </button>
         <ul class="nav-list" role="navigation">
           <div class="list -left">
-          <li class="item"><a href="//docs.taiko.dev">Documentation</a></li>
-          <li class="githubstar-box item"><a aria-label="Link to Taiko GithHub repository" href="https://github.com/getgauge/taiko"><span class="github-icon"></span><span class="github_star"></span></a></li>
+            <li class="item">
+              <a href="//docs.taiko.dev">Documentation</a>
+            </li>
+            <li class="githubstar-box item">
+              <a aria-label="Link to Taiko GithHub repository" href="https://github.com/getgauge/taiko">
+                <span class="github-icon"></span>
+                <span class="github_star"></span></a>
+            </li>
           </div>
-       </ul>
-      </nav><!-- .main-nav -->
-      
+        </ul>
+      </nav>
+      <!-- .main-nav -->
+
     </div>
-  </header><!-- #header -->
+  </header>
+  <!-- #header -->
 
   <!--==========================
     Intro Section
@@ -60,7 +73,7 @@
       <div class="row justify-content-center align-self-center">
         <div class="col-md-12 intro-info order-md-first order-last">
           <h2>Reliable Browser Automation</h2>
-          <p>Taiko is a Node.js library for<br/> automating browsers</p>
+          <p>Taiko is a Node.js library for<br /> automating browsers</p>
           <span class="col-md-12 copy-command" id="copy-command">
             <input type="text" value="$ npm install -g taiko" id="myInput">
             <div class="tooltip">
@@ -69,16 +82,17 @@
                 Copy
               </button>
             </div>
-          </span>  
-          
+          </span>
+
           <div class="tag-line">
             <h4>Everything you need for reliable end to end testing</h4>
           </div>
-          
+
         </div>
       </div>
     </div>
-  </section><!-- #intro -->
+  </section>
+  <!-- #intro -->
 
   <main id="main">
 
@@ -96,49 +110,49 @@
 
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div class="features-img-block"><img src="assets/img/smart_selectors_blue.svg" class="features-img img-fluid" alt=""></div>
+              <div class="features-img-block"><img src="assets/img/smart_selectors_blue.svg"
+                  class="features-img img-fluid" alt=""></div>
               <h4 class="title">Smart Selectors</h4>
-              <p class="description">Write scripts by looking at a web page, without inspecting 
-              it`s source code. Create reliable tests that don`t break with changes 
-              in the web page's structure.</p>
+              <p class="description">Write scripts by looking at a web page, without inspecting
+                it`s source code. Create reliable tests that don`t break with changes
+                in the web page's structure.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div class="features-img-block"><img src="assets/img/waits_blue.svg" 
-              class="features-img img-fluid" alt=""></div>
+              <div class="features-img-block"><img src="assets/img/waits_blue.svg" class="features-img img-fluid"
+                  alt=""></div>
               <h4 class="title">Implicit Waits</h4>
-              <p class="description">An intuitive API listens to actions and automatically waits 
-              for them to complete before moving on to the next one. Scripts are free of explicit 
-              waits that reduce 'flakiness'.</p>
+              <p class="description">An intuitive API listens to actions and automatically waits
+                for them to complete before moving on to the next one. Scripts are free of explicit
+                waits that reduce 'flakiness'.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="features-img-block"><img src="assets/img/recorder_blue.svg" 
-              class="features-img img-fluid" alt=""></div>
+              <div class="features-img-block"><img src="assets/img/recorder_blue.svg" class="features-img img-fluid"
+                  alt=""></div>
               <h4 class="title">Interactive Recorder</h4>
-              <p class="description">An Interactive Recorder that's a REPL to write test scripts. 
-              You can use Taiko's API to control the browser from REPL.</p>
+              <p class="description">An Interactive Recorder that's a REPL to write test scripts.
+                You can use Taiko's API to control the browser from REPL.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="features-img-block"><img src="assets/img/request_blue.svg" 
-              class="features-img img-fluid" alt=""></div>
+              <div class="features-img-block"><img src="assets/img/request_blue.svg" class="features-img img-fluid"
+                  alt=""></div>
               <h4 class="title">Request & Response Stubbing</h4>
-              <p class="description">Setting up test infrastructure and test data is hard. With the 
-              intercept API, you don`t have to set up mock servers, or replace URLs in tests to point 
-              to test instances.</p>
+              <p class="description">Setting up test infrastructure and test data is hard. With the
+                intercept API, you don`t have to set up mock servers, or replace URLs in tests to point
+                to test instances.</p>
             </div>
           </div>
         </div>
 
       </div>
-    </section><!-- #features -->
-
-    
+    </section>
+    <!-- #features -->
 
     <!--==========================
       Testimonials Section
@@ -147,113 +161,111 @@
       <div class="container">
         <div class="justify-content-center">
 
-            <div>
-                <div class="carousel">
-                    <ul class="slides">
-                        <input type="radio" name="radio-buttons" id="img-1" checked />
-                        <li class="slide-container">
-                            <div class="row testimonial-item slide-image">
-                                <div class="col-lg-4 col-md-3 col-4 first-block">
-                                  <img src="assets/img/dmitry-vinnik-testimonial.jpg" 
-                                  class=" testimonial-img img-fluid" alt="">
-                                </div>
-                                <div class="col-lg-8 col-md-12 col-12 second-block">
-                                  <p>
-                                    Gauge and Taiko is one of the best test automation duos out there. 
-                                    Gauge removes all roadblocks of enforced syntax, long setup and tool-specific formats. 
-                                    Instead Gauge relies on a known standard of markdown, built-in support for reporting, 
-                                    and free format to match your team's domain. Together, Gauge and Taiko get your 
-                                    team up and running fast and ensure you focus your effort on dealing with bugs you 
-                                    uncover with your test suites, rather thatn on maintaining your test suite itself.
-                                  </p>
-                                </div>
-                                <div class="third-block offset-lg-4 col-lg-9 col-md-9 col-8">
-                                  <h3>Dmitry Vinnik</h3>
-                                  <h4>Lead Software Engineer, Salesforce</h4>
-                                </div>
-                              </div>
-                            <div class="carousel-controls">
-                                <label for="img-3" class="prev-slide">
-                                    <span>&lsaquo;</span>
-                                </label>
-                                <label for="img-2" class="next-slide">
-                                  <span>&rsaquo;</span>
-                                </label>
-                            </div>
-                        </li>
-                        <input type="radio" name="radio-buttons" id="img-2" />
-                        <li class="slide-container">
-                          <div class="row testimonial-item slide-image">
-                            <div class="col-lg-4 col-4 first-block">
-                              <img src="assets/img/dmitry-vinnik-testimonial.jpg" class=" testimonial-img img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-8 col-12 second-block">
-                              <p>
-                                Gauge and Taiko is one of the best test automation duos out there. 
-                                Gauge removes all roadblocks of enforced syntax, long setup and tool-specific formats. 
-                                Instead Gauge relies on a known standard of markdown, built-in support for reporting, 
-                                and free format to match your team's domain. Together, Gauge and Taiko get your 
-                                team up and running fast and ensure you focus your effort on dealing with bugs you 
-                                uncover with your test suites, rather thatn on maintaining your test suite itself.
-                              </p>
-                            </div>
-                            <div class="third-block offset-lg-4 col-lg-9 col-8">
-                              <h3>Dmitry Vinnik</h3>
-                              <h4>Lead Software Engineer, Salesforce</h4>
-                            </div>
-                          </div>
-                            <div class="carousel-controls">
-                                <label for="img-1" class="prev-slide">
-                                    <span>&lsaquo;</span>
-                                </label>
-                                <label for="img-3" class="next-slide">
-                                    <span>&rsaquo;</span>
-                                </label>
-                            </div>
-                        </li>
-                        <input type="radio" name="radio-buttons" id="img-3" />
-                        <li class="slide-container">
-                          <div class="row testimonial-item slide-image">
-                            <div class="col-lg-4 col-4 first-block">
-                              <img src="assets/img/dmitry-vinnik-testimonial.jpg" class=" testimonial-img img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-8 col-12 second-block">
-                              <p>
-                                Gauge and Taiko is one of the best test automation duos out there. 
-                                Gauge removes all roadblocks of enforced syntax, long setup and tool-specific formats. 
-                                Instead Gauge relies on a known standard of markdown, built-in support for reporting, 
-                                and free format to match your team's domain. Together, Gauge and Taiko get your 
-                                team up and running fast and ensure you focus your effort on dealing with bugs you 
-                                uncover with your test suites, rather thatn on maintaining your test suite itself.
-                              </p>
-                            </div>
-                            <div class="third-block offset-lg-4 col-lg-9 col-8">
-                              <h3>Vee</h3>
-                              <h4>Lead Software Engineer, Salesforce</h4>
-                            </div>
-                          </div>
-                            <div class="carousel-controls">
-                                <label for="img-2" class="prev-slide">
-                                    <span>&lsaquo;</span>
-                                </label>
-                                <label for="img-1" class="next-slide">
-                                    <span>&rsaquo;</span>
-                                </label>
-                            </div>
-                        </li>
-                        <div class="carousel-dots">
-                            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                        </div>
-                    </ul>
+          <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons" id="img-1" checked />
+                <li class="slide-container">
+                  <div class="row testimonial-item slide-image">
+                    <div class="col-lg-4 col-md-3 col-4 first-block">
+                      <img src="assets/img/dmitry-vinnik-testimonial.jpg" class=" testimonial-img img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-12 second-block">
+                      <p>
+                        Gauge and Taiko is one of the best test automation duos out there.
+                        Gauge removes all roadblocks of enforced syntax, long setup and tool-specific formats.
+                        Instead Gauge relies on a known standard of markdown, built-in support for reporting,
+                        and free format to match your team's domain. Together, Gauge and Taiko get your
+                        team up and running fast and ensure you focus your effort on dealing with bugs you
+                        uncover with your test suites, rather thatn on maintaining your test suite itself.
+                      </p>
+                    </div>
+                    <div class="third-block offset-lg-4 col-lg-9 col-md-9 col-8">
+                      <h3>Dmitry Vinnik</h3>
+                      <h4>Lead Software Engineer, Salesforce</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-3" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-2" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-2" />
+                <li class="slide-container">
+                  <div class="row testimonial-item slide-image">
+                    <div class="col-lg-4 col-4 first-block">
+                      <img src="assets/img/dmitry-vinnik-testimonial.jpg" class=" testimonial-img img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 col-12 second-block">
+                      <p>
+                        Gauge and Taiko is one of the best test automation duos out there.
+                        Gauge removes all roadblocks of enforced syntax, long setup and tool-specific formats.
+                        Instead Gauge relies on a known standard of markdown, built-in support for reporting,
+                        and free format to match your team's domain. Together, Gauge and Taiko get your
+                        team up and running fast and ensure you focus your effort on dealing with bugs you
+                        uncover with your test suites, rather thatn on maintaining your test suite itself.
+                      </p>
+                    </div>
+                    <div class="third-block offset-lg-4 col-lg-9 col-8">
+                      <h3>Dmitry Vinnik</h3>
+                      <h4>Lead Software Engineer, Salesforce</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-1" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-3" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-3" />
+                <li class="slide-container">
+                  <div class="row testimonial-item slide-image">
+                    <div class="col-lg-4 col-4 first-block">
+                      <img src="assets/img/dmitry-vinnik-testimonial.jpg" class=" testimonial-img img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 col-12 second-block">
+                      <p>
+                        Gauge and Taiko is one of the best test automation duos out there.
+                        Gauge removes all roadblocks of enforced syntax, long setup and tool-specific formats.
+                        Instead Gauge relies on a known standard of markdown, built-in support for reporting,
+                        and free format to match your team's domain. Together, Gauge and Taiko get your
+                        team up and running fast and ensure you focus your effort on dealing with bugs you
+                        uncover with your test suites, rather thatn on maintaining your test suite itself.
+                      </p>
+                    </div>
+                    <div class="third-block offset-lg-4 col-lg-9 col-8">
+                      <h3>Vee</h3>
+                      <h4>Lead Software Engineer, Salesforce</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-2" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-1" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
                 </div>
+              </ul>
             </div>
           </div>
+        </div>
       </div>
-    </section><!-- #testimonials -->
-
-    
+    </section>
+    <!-- #testimonials -->
 
     <!--==========================
       Video Container Section
@@ -264,11 +276,14 @@
           <h3>Simplify Your Testing Experience</h3>
         </header>
         <div class="video-section">
-            <iframe title="Video of Taiko" width="100%" height="550" src="https://www.youtube-nocookie.com/embed/w027U_HRj_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          <iframe title="Video of Taiko" width="100%" height="550"
+            src="https://www.youtube-nocookie.com/embed/w027U_HRj_U" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
-        
+
       </div>
-    </section><!-- #video_container -->
+    </section>
+    <!-- #video_container -->
 
   </main>
 
@@ -281,41 +296,52 @@
         <div class="row">
           <div class="col-lg-12 footer-content">
             <div class="row">
-                <div class="col-sm-4">
-                  <div class="footer-links">
-                    <h4>Product</h4>
-                    <ul>
-                      <li><a aria-label="Taiko Documentation" href="#">Documentation</a></li>
-                      <li><a aria-label="Press kit" href="#">Press kit</a></li>
-                      <li><a aria-label="Privacy information" href="#">Privacy</a></li>
-                    </ul>
-                  </div>
+              <div class="col-sm-4">
+                <div class="footer-links">
+                  <h4>Product</h4>
+                  <ul>
+                    <li>
+                      <a aria-label="Taiko Documentation" href="#">Documentation</a>
+                    </li>
+                    <li>
+                      <a aria-label="Press kit" href="#">Press kit</a>
+                    </li>
+                    <li>
+                      <a aria-label="Privacy information" href="#">Privacy</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-sm-4">
-                  <div class="footer-links">
-                    <h4>Engage</h4>
-                    <ul>
-                      <li><a aria-label="Spectrum, forums for support" href="#" class="icon_spectrum">Spectrum</a></li>
-                      <li><a aria-label="Instructions on how to contribute" href="#" class="icon_contribute">Contribute</a></li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="footer-links">
+                  <h4>Engage</h4>
+                  <ul>
+                    <li>
+                      <a aria-label="Spectrum, forums for support" href="#" class="icon_spectrum">Spectrum</a>
+                    </li>
+                    <li>
+                      <a aria-label="Instructions on how to contribute" href="#" class="icon_contribute">Contribute</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-sm-4">
-                  <div class="footer-info">
-                    <h3>TAIKO</h3>
-                    <p>Taiko is MIT licensed free and open source software.</p>
-                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="footer-info">
+                  <h3>TAIKO</h3>
+                  <p>Taiko is MIT licensed free and open source software.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
 
-   
-  </footer><!-- #footer -->
+  </footer>
+  <!-- #footer -->
 
-  <a aria-label="Back to top" href="#" class="back-to-top" id="back-to-top"><span class="arrow-icon">></span></a>
+  <a aria-label="Back to top" href="#" class="back-to-top" id="back-to-top">
+    <span class="arrow-icon">></span></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
@@ -323,4 +349,5 @@
   <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
