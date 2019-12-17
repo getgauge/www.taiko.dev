@@ -16,6 +16,13 @@
        url('../fonts/poppins-latin/Poppins-Medium.otf') format("opentype");
 }
 
+@font-face {
+  font-family: 'PoppinsLatin-SemiBold';
+  src: url('../fonts/poppins-latin/PoppinsLatin-SemiBold.ttf') format('truetype'),
+       url('../fonts/poppins-latin/PoppinsLatin-SemiBoldItalicm.otf') format("opentype");
+}
+
+
 
 @font-face {
   font-family: 'OpenSans-Regular';
@@ -224,6 +231,8 @@ h6 {
   padding: 0;
   margin: 7px 0;
   max-height: 26px;
+  width:145px;
+  height: 34px;
 }
 
 .main-pages {
@@ -246,7 +255,7 @@ h6 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 72px;
-  font-family: 'PoppinsLation-Bold';
+  font-family: 'PoppinsLatin-SemiBold';
   line-height: 62px;
 }
 
@@ -255,7 +264,7 @@ h6 {
   margin-bottom: 40px;
   font-size: 40px;
   text-align: center;
-  font-family: 'PoppinsLatin-Medium';
+  font-family: 'OpenSans-Regular';
   line-height: 50px;
 }
 
@@ -542,7 +551,7 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 36px;
+  font-size: 34px;
   color: #413e66;
   text-align: center;
   position: relative;
@@ -670,11 +679,11 @@ h6 {
 }
 
 #testimonials .testimonial-item h3 {
-  font-size: 21px;
+  font-size: 24px;
   margin: 10px 0 5px 0;
   color: #fff;
   line-height: 28px;
-  font-family: 'PoppinsLatin-Medium';
+  font-family: 'PoppinsLation-Bold';
   margin-left: 40px;
 }
 
@@ -980,7 +989,7 @@ h6 {
   background: url(../img/github_star.svg) no-repeat 0 0;
 }
 .githubstar-box .github-icon {
-  background: url(../img/github_star_count.png) no-repeat 0 0;
+  background: url(../img/github_star_count_new.png) no-repeat 0 0;
   padding-left: 140px;
   width: 40px;
   height: 18px;
