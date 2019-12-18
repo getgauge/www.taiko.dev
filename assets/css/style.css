@@ -568,7 +568,7 @@ h6 {
 
 .section-header h3 {
   font-size: 34px;
-  color: #413e66;
+  color: #25282D;
   text-align: center;
   position: relative;
   font-family: 'PoppinsLatin-Medium';
@@ -580,7 +580,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #535074;
+  color: #25282D;
   width: 50%;
 }
 
@@ -1414,14 +1414,14 @@ input#myInput:focus {
     font-family: 'PoppinsLation-Bold';
     margin: 0px 0px 5px 0px;
     position: absolute;
-    top:35%;
+    top:27%;
   }
   #testimonials .testimonial-item .third-block h4 {
     font-size: 18px;
     font-family: 'PoppinsLatin-Medium';
     padding: 0px;
     position: absolute;
-    top:61%;
+    top:53%;
     margin-left: 0px;
   }
   
@@ -1597,11 +1597,10 @@ input#myInput:focus {
     font-size: 18px!important;
   }
   #testimonials .testimonial-item .third-block h4 {
-    font-size: 16px;
-    font-family: 'OpenSans-Regular';
+    font-size: 14px;
     padding: 0px;
     position: absolute;
-    top: 55%;
+    top: 46%;
     margin-left: 0px;
     text-align: left;
     width: 90%;
@@ -1623,7 +1622,9 @@ input#myInput:focus {
     margin:0px 0px 20px 0px;
   }
   .carousel-controls {
-    display: none;
+    top: 38px;
+    line-height: 100vh;
+    font-size: 45px;
   }
   ul.slides {
     height: 520px;
@@ -1637,7 +1638,8 @@ input#myInput:focus {
   }
   #testimonials .testimonial-item h3 {
     top: 24%;
-    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    font-family: 'PoppinsLation-Bold';
   }
   .carousel-dots {
     bottom: 0px;
