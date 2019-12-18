@@ -690,30 +690,29 @@ h6 {
 #testimonials .testimonial-item .testimonial-img {
   width: auto;
   border-radius: 50%;
-  border: 4px solid #fff;
   float: left;
 }
 
 #testimonials .testimonial-item h3 {
   font-size: 24px;
-  margin: 10px 0 5px 0;
+  margin: 0px 0 5px 0;
   color: #fff;
   line-height: 28px;
   font-family: 'PoppinsLation-Bold';
   margin-left: 40px;
 }
 
-#testimonials .testimonial-item h4 {
+#testimonials .testimonial-item h3 span.sub-title {
   font-size: 18px;
   color: #fff;
-  margin-left: 40px;
   font-family: 'PoppinsLatin-Medium';
+  display: block;
 }
 
 #testimonials .testimonial-item p {
   background: #fff;
   color: #25282D;
-  padding: 15px;
+  padding: 21px;
   border-radius:5px;
   font-size: 21px;
   font-family: 'OpenSans-Regular';
@@ -1297,25 +1296,20 @@ input#myInput:focus {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-
-@media (min-width: 1087px) {
-  #call-to-action .cta-btn-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+@media screen and (max-width: 1200px) and (min-width: 992px) 
+{
+  ul.slides {
+    height: 505px;
+  }
+  #intro .intro-info {
+   top: 20px;
+  }
+  .circle_blue {
+    margin-bottom: 150px;
   }
 }
 
-@media (min-width: 1087px) {
+@media (min-width: 991px) {
 
   #services .description {
     min-height: 112px;
@@ -1329,12 +1323,9 @@ input#myInput:focus {
   button.toggle-nav {
     display: none;
   }
-  .third-block {
-    margin-top: -25px;
-  }
 }
 
-@media (max-width: 1087px) {
+@media (max-width: 991px) {
   #topbar {
     display: none;
   }
@@ -1423,6 +1414,7 @@ input#myInput:focus {
     position: absolute;
     top:53%;
     margin-left: 0px;
+    text-align: left;
   }
   
   #testimonials .testimonial-item .testimonial-img {
@@ -1462,7 +1454,7 @@ input#myInput:focus {
     margin: 30px 0px 25px 0px;
   }
   ul.slides {
-    height: 400px;
+    height: 430px;
     margin-top: 0px;
   }
   button.toggle-nav {
@@ -1504,9 +1496,7 @@ input#myInput:focus {
   .section-header p {
     width: 100%;
   }
-  .carousel-dots {
-    bottom: -20px;
-  }
+ 
 
   #testimonials .testimonial-item {
     text-align: center;
@@ -1517,7 +1507,7 @@ input#myInput:focus {
   }
 
   #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
+  #testimonials .testimonial-item h3 span.sub-title,
   #testimonials .testimonial-item p {
     margin-left: 0;
   }
@@ -1622,12 +1612,12 @@ input#myInput:focus {
     margin:0px 0px 20px 0px;
   }
   .carousel-controls {
-    top: 38px;
+    top: 73px;
     line-height: 100vh;
     font-size: 45px;
   }
   ul.slides {
-    height: 520px;
+    height: 555px;
     margin-top: 0px;
   }
   #intro .intro-info h4 {
@@ -1637,9 +1627,10 @@ input#myInput:focus {
     padding-top: 30px;
   }
   #testimonials .testimonial-item h3 {
-    top: 24%;
+    top: 25%;
     font-size: 18px;
     font-family: 'PoppinsLation-Bold';
+    text-align: left;
   }
   .carousel-dots {
     bottom: 0px;
