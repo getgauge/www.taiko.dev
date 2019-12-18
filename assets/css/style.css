@@ -30,7 +30,7 @@
 }
 
 @font-face {
-  font-family: 'OpenSans-Semi-Bold';
+  font-family: 'OpenSans-SemiBold';
   src: url('../fonts/open-sans/OpenSans-Semibold.ttf') format('truetype');
 }
 
@@ -251,6 +251,12 @@ h6 {
   padding-top: 75px;
 }
 
+#intro .intro-info {
+  position: absolute!important;
+  top: 35px;
+  margin: 90px auto;
+}
+
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -321,8 +327,11 @@ h6 {
 }
 
 .tag-line p {
-  font-family: 'OpenSans-Semi-Bold';
+  font-family: 'OpenSans-SemiBold';
   font-size: 21px;
+}
+.tag-line {
+  margin-top:110px;
 }
 
 
@@ -974,15 +983,17 @@ h6 {
   color: #0a98c0;
 }
 
+
 .circle_blue {
   width: 425px;
   height: 425px;
   background-color: transparent;
   border: 4px solid #2BD3EF;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   border-radius: 50%;
-  position: absolute;
-  left: 35%;
-  top: 15%;
+  margin-bottom: 90px;
 }
 
 .githubstar-box .github-icon {
@@ -1029,7 +1040,7 @@ button.owl-next span {
 }
 #intro .intro-info h4 {
   font-size: 21px;
-  font-family: 'OpenSans-Semi-Bold';
+  font-family: 'OpenSans-SemiBold';
   line-height: 28px;
   color:#fff;
 }
@@ -1266,6 +1277,10 @@ input#myInput:focus {
   outline: none;
 }
 
+#intro .intro-info {
+  position: absolute!important;
+  top: 35px;
+}
 
 
 
@@ -1274,55 +1289,8 @@ input#myInput:focus {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 1260px) and (min-width: 992px) {
-  .circle_blue {
-    width: 425px;
-    height: 425px;
-    background-color: transparent;
-    border: 4px solid #2BD3EF;
-    border-radius: 50%;
-    position: absolute;
-    left: 30%;
-    top: 13%;
-  }
-  #intro .intro-info h4 {
-    margin: 101px 0px 43px 0px;
-  }
-}
-@media screen and (max-width: 1800px) and (min-width: 1261px) { 
-  .circle_blue {
-    width: 425px;
-    height: 425px;
-    background-color: transparent;
-    border: 4px solid #2BD3EF;
-    border-radius: 50%;
-    position: absolute;
-    left: 36%;
-    top: 13%;
-  }
-  #intro .intro-info h4 {
-    margin: 101px 0px 43px 0px;
-  }
-}
 
-@media screen and (max-width: 4000px) and (min-width: 1801px) { 
-  .circle_blue {
-    width: 425px;
-    height: 425px;
-    background-color: transparent;
-    border: 4px solid #2BD3EF;
-    border-radius: 50%;
-    position: absolute;
-    left: 42%;
-    top: 13%;
-  }
-  #intro .intro-info h4 {
-    margin: 101px 0px 43px 0px;
-  }
-}
-
-
-@media (min-width: 991px) {
+@media (min-width: 1087px) {
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1339,10 +1307,7 @@ input#myInput:focus {
   }
 }
 
-@media (min-width: 992px) {
-  #intro .intro-info {
-    padding-top: 80px;
-  }
+@media (min-width: 1087px) {
 
   #services .description {
     min-height: 112px;
@@ -1361,7 +1326,7 @@ input#myInput:focus {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1087px) {
   #topbar {
     display: none;
   }
@@ -1387,18 +1352,27 @@ input#myInput:focus {
     height: 220px;
     background-color: transparent;
     border: 4px solid #2BD3EF;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     border-radius: 50%;
-    position: absolute;
-    left: 35%;
-    top: 15%;
+    margin-bottom: 80px;
   }
   #intro .intro-info h2 {
     font-size: 42px;
+    line-height: 38px;
+  }
+  .tag-line {
+    margin-top: 60px;
+  }
+  #intro .intro-info h4 {
+    font-family: 'OpenSans-Regular';
+    font-size: 21px;
   }
   #intro .intro-info p {
-    font-size: 32px;
+    font-size: 30px;
     font-family: 'PoppinsLatin-Medium';
-    line-height: 32px;
+    line-height: 36px;
   }
   #services .title {
     font-size: 24px;
@@ -1471,7 +1445,7 @@ input#myInput:focus {
     font-size: 21px;
     font-family: 'OpenSans-Regular';
     line-height: 28px;
-    padding-top: 30px;
+    padding-top: 0px;
   }
   #intro .intro-info p {
     font-size: 30px;
@@ -1495,7 +1469,7 @@ input#myInput:focus {
 @media (max-width: 767px) {
   #intro {
     height: auto;
-    padding: 80px 0 60px 0;
+    padding: 80px 0 20px 0;
   }
 
   #intro .container {
@@ -1508,14 +1482,14 @@ input#myInput:focus {
 
   #intro .intro-info {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 1px;
   }
 
   #intro .intro-info h2 {
     margin-bottom: 30px;
   }
   #intro .intro-info p {
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'PoppinsLatin-Medium';
   }
 
@@ -1541,7 +1515,7 @@ input#myInput:focus {
   }
 }
 
-@media (max-width: 574px) {
+@media (max-width: 638px) {
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
@@ -1552,6 +1526,7 @@ input#myInput:focus {
     font-size: 36px;
     line-height: 42px;
     word-spacing: 100vw;
+    margin-top: 37px;
   }
   #intro .intro-info p {
     color: #fff;
@@ -1563,18 +1538,24 @@ input#myInput:focus {
     padding: 0px 20px;
     margin-top: 80px;
   }
+  .tag-line {
+    margin-top: 0px;
+  }
   .circle_blue {
     width: 200px;
     height: 200px;
     background-color: transparent;
     border: 4px solid #2BD3EF;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     border-radius: 50%;
-    position: absolute;
-    left: 27%;
-    top: 15%;
+    margin-bottom: 80px;
   }
   #intro {
     padding-bottom: 0px;
+    height: auto;
+    padding: 80px 0 160px 0px;
   }
   .section-header h3 {
     font-size: 24px;
@@ -1652,6 +1633,11 @@ input#myInput:focus {
   }
   .carousel-dots {
     bottom: 0px;
+  }
+  #intro .intro-info {
+    position: absolute!important;
+    top: 44px;
+    margin: 30px auto;
   }
 }
 
