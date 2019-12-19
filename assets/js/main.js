@@ -39,7 +39,7 @@ window.onscroll = function () {
 }
 
 function headerNav() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     document.getElementById("header").className = "header-scrolled";
   } else {
     document.getElementById("header").className = "";
