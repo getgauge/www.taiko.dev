@@ -1603,5 +1603,8 @@ input#myInput:focus {
     display: block;
     padding: 0px 25px;
   }
+  button.toggle-nav {
+    display: block;
+  }
 }
 
