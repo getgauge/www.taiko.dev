@@ -194,7 +194,7 @@ h6 {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 99999;
 }
 
 #header.header-scrolled,
@@ -1465,7 +1465,7 @@ input#myInput:focus {
   }
   #intro .intro-info h2 {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 45px;
     word-spacing: 100vw;
     margin-top: 37px;
   }
@@ -1496,7 +1496,7 @@ input#myInput:focus {
   #intro {
     padding-bottom: 0px;
     height: auto;
-    padding: 80px 0 160px 0px;
+    padding: 80px 0 250px 0px;
   }
   .section-header h3 {
     font-size: 24px;
@@ -1557,6 +1557,7 @@ input#myInput:focus {
     margin: 0px auto;
     top: 445px;
     font-size: 45px;
+    z-index: 9999;
   }
   ul.slides {
     height: 525px;
