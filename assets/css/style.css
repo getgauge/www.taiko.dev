@@ -188,7 +188,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px;
+  padding: 15px;
   position: fixed;
   left: 0;
   top: 0;
@@ -680,7 +680,7 @@ h6 {
 --------------------------------*/
 
 #testimonials {
-  padding: 60px 0;
+  padding: 90px 50px 30px 50px;
 }
 
 #testimonials .section-header {
@@ -716,7 +716,7 @@ h6 {
   border-radius:5px;
   font-size: 21px;
   font-family: 'OpenSans-Regular';
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #testimonials .owl-nav,
@@ -907,7 +907,9 @@ span.github-star-count {
   color: #25282D;
   z-index: 9999;
   right: 10px;
-  top: -7px;
+  top: -8px;
+  font-family: 'OpenSans-SemiBold';
+  font-size:18px;
 }
 .githubstar-box span {
   padding: 7px;
@@ -1051,8 +1053,7 @@ ul.slides {
   padding: 0;
   overflow: hidden;
   list-style: none;
-  height: 480px;
-  margin-top: 60px;
+  height: 420px;
 }
 
 .slides * {
@@ -1071,6 +1072,7 @@ ul.slides input {
 
 .slide-container { 
   display: block; 
+  padding: 0px 70px;
 }
 
 
@@ -1084,13 +1086,16 @@ ul.slides input {
 
 .carousel-controls {
   position: absolute;
-  top: 0;
+  top: 28%;
   left: 0;
   right: 0;
   z-index: 99;
   font-size: 75px;
-  line-height: 360px;
   color: #2BD3EF;
+}
+
+.second-block {
+  max-width: 780px;
 }
 
 .carousel-controls label {
@@ -1109,24 +1114,22 @@ ul.slides input {
 }
 
 .carousel-controls .prev-slide {
-  width: 49%;
+  width: 19%;
   text-align: left;
   left: 0;
 }
 
 .carousel-controls .next-slide {
-  width: 49%;
+  width: 19%;
   text-align: right;
   right: 0;
 }
 
 .carousel-dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0px;
   z-index: 999;
   text-align: center;
+  position: relative;
+  top:392px;
 }
 
 .carousel-dots .carousel-dot {
@@ -1190,16 +1193,40 @@ input#myInput:focus {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 1200px) and (min-width: 992px) 
+@media screen and (max-width: 1330px) and (min-width: 1079px) 
 {
   ul.slides {
-    height: 505px;
+    height: 520px;
   }
   #intro .intro-info {
    top: 20px;
   }
   .circle_blue {
     margin-bottom: 150px;
+  }
+  .carousel-dots {
+    z-index: 999;
+    text-align: center;
+    position: relative;
+    top: 475px;
+  }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 992px)  {
+  ul.slides {
+    height: 580px;
+  }
+  #intro .intro-info {
+   top: 20px;
+  }
+  .circle_blue {
+    margin-bottom: 150px;
+  }
+  .carousel-dots {
+    z-index: 999;
+    text-align: center;
+    position: relative;
+    top: 520px;
   }
 }
 
@@ -1217,6 +1244,7 @@ input#myInput:focus {
   button.toggle-nav {
     display: none;
   }
+  
 }
 
 @media (max-width: 991px) {
@@ -1300,6 +1328,7 @@ input#myInput:focus {
     margin: 0px 0px 5px 0px;
     position: absolute;
     top:27%;
+    text-align: left;
   }
   #testimonials .testimonial-item .third-block h4 {
     font-size: 18px;
@@ -1319,7 +1348,15 @@ input#myInput:focus {
   }
   ul.slides {
     height: 400px;
-    margin-top: 20px;
+  }
+  #testimonials {
+    padding: 60px 20px 20px 20px;
+  }
+  .carousel-dots {
+    z-index: 999;
+    text-align: center;
+    position: relative;
+    top: 360px;
   }
 }
 
@@ -1357,6 +1394,12 @@ input#myInput:focus {
   .nav-list > .list > .item {
     display: flex;
     padding: 20px!important;
+  }
+  .carousel-dots {
+    z-index: 999;
+    text-align: center;
+    position: relative;
+    top: 377px;
   }
 }
 
@@ -1404,6 +1447,12 @@ input#myInput:focus {
   #testimonials .testimonial-item h3 span.sub-title,
   #testimonials .testimonial-item p {
     margin-left: 0;
+  }
+  .carousel-dots {
+    z-index: 999;
+    text-align: center;
+    position: relative;
+    top: 398px;
   }
 }
 
@@ -1465,7 +1514,6 @@ input#myInput:focus {
     min-height: auto;
   }
   #testimonials .testimonial-item .testimonial-img {
-    width: auto;
     border-radius: 50%;
     border: 0px;
   }
@@ -1489,9 +1537,7 @@ input#myInput:focus {
     text-align: left;
     width: 90%;
   }
-  #testimonials .testimonial-item p {
-    margin-top: 20px;
-  }
+  
   .owl-nav.disabled {
     display: none!important;
   }
@@ -1506,12 +1552,14 @@ input#myInput:focus {
     margin:0px 0px 20px 0px;
   }
   .carousel-controls {
-    top: 73px;
-    line-height: 100vh;
+    bottom: 0px;
+    position: relative;
+    margin: 0px auto;
+    top: 445px;
     font-size: 45px;
   }
   ul.slides {
-    height: 555px;
+    height: 525px;
     margin-top: 0px;
   }
   #intro .intro-info h4 {
@@ -1521,18 +1569,36 @@ input#myInput:focus {
     padding-top: 30px;
   }
   #testimonials .testimonial-item h3 {
-    top: 25%;
+    top: 15%;
     font-size: 18px;
     font-family: 'PoppinsLation-Bold';
     text-align: left;
   }
   .carousel-dots {
     bottom: 0px;
+    position: relative;
+    margin: 0px auto;
+    top: 469px;
   }
   #intro .intro-info {
     position: absolute!important;
     top: 44px;
     margin: 30px auto;
+  }
+  #testimonials .testimonial-item h3 span.sub-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  #testimonials .testimonial-item p {
+   padding: 0px;
+   margin-top: 10px;
+  }
+  #testimonials {
+    padding: 40px 0px 20px 0px;
+  }
+  .slide-container {
+    display: block;
+    padding: 0px 25px;
   }
 }
 
