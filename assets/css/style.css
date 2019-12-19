@@ -857,116 +857,6 @@ h6 {
   line-height: 26px;
 }
 
-#footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-newsletter input[type="email"] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-  border: 1px solid #d9dde6;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #1bb1dc;
-  border: 1px solid #1bb1dc;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0a98c0;
-}
-
-#footer .footer-top .form .form-group {
-  margin-bottom: 15px;
-}
-
-#footer .footer-top .form #sendmessage {
-  color: #fff;
-  background: #1bb1dc;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#footer .footer-top .form #errormessage {
-  color: #fff;
-  display: none;
-  background: red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#footer .footer-top .form #sendmessage.show,
-#footer .footer-top .form #errormessage.show,
-#footer .footer-top .form .show {
-  display: block;
-}
-
-#footer .footer-top .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#footer .footer-top .form label {
-  color: #413e66;
-  font-weight: 500;
-}
-
-#footer .footer-top .form input,
-#footer .footer-top .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  border: 1px solid #dce1ec;
-  font-size: 14px;
-}
-
-#footer .footer-top .form input::-webkit-input-placeholder,
-#footer .footer-top .form textarea::-webkit-input-placeholder {
-  color: #a2a0bd;
-}
-
-#footer .footer-top .form input::-moz-placeholder,
-#footer .footer-top .form textarea::-moz-placeholder {
-  color: #a2a0bd;
-}
-
-#footer .footer-top .form input:-ms-input-placeholder,
-#footer .footer-top .form textarea:-ms-input-placeholder {
-  color: #a2a0bd;
-}
-
-#footer .footer-top .form input::placeholder,
-#footer .footer-top .form textarea::placeholder {
-  color: #a2a0bd;
-}
-
-#footer .footer-top .form button[type="submit"] {
-  background: #1bb1dc;
-  border: 0;
-  border-radius: 3px;
-  padding: 8px 30px;
-  color: #fff;
-  transition: 0.3s;
-}
-
-#footer .footer-top .form button[type="submit"]:hover {
-  background: #0a98c0;
-  cursor: pointer;
-}
 
 #footer .copyright {
   text-align: center;
@@ -1007,18 +897,22 @@ h6 {
   background: url(../img/github_star.svg) no-repeat 0 0;
 }
 .githubstar-box .github-icon {
-  background: url(../img/github_star_count_new.png) no-repeat 0 0;
+  background: url(../img/github_star_count_dynamic.png) no-repeat 0 0;
   padding-left: 140px;
   width: 40px;
   height: 18px;
 }
+span.github-star-count {
+  position: absolute;
+  color: #25282D;
+  z-index: 9999;
+  right: 10px;
+  top: -7px;
+}
 .githubstar-box span {
-  color: #fff;
   padding: 7px;
 }
-.githubstar-box .github_star {
-  color: #fff;
-}
+
 .clearfix-block {
   display:none;
 }

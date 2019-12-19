@@ -13,6 +13,26 @@ function outFunc() {
   tooltip.innerHTML = "Copy to clipboard";
 }
 
+function preloadFunc() {
+  headerNav();
+  getGithubStarCount();
+}
+
+function getGithubStarCount() {
+  const githubCount = document.getElementById("github-star-count");
+
+  fetch('https://api.github.com/repos/getgauge/taiko', {
+    method: 'get'
+  })
+  .then(response => response.json())
+  .then(function (response) {
+    githubCount.textContent = response.stargazers_count;
+  })
+  .catch(err => {
+    githubCount.textContent = "1.7K";
+  });
+  
+}
 
 window.onscroll = function () {
   headerNav();
@@ -25,6 +45,7 @@ function headerNav() {
   } else {
     document.getElementById("header").className = "";
   }
+
 }
 
 function gotoTop() {
