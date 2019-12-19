@@ -36,7 +36,6 @@ function getGithubStarCount() {
 
 window.onscroll = function () {
   headerNav();
-  gotoTop();
 }
 
 function headerNav() {
@@ -48,13 +47,6 @@ function headerNav() {
 
 }
 
-function gotoTop() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("back-to-top").style.display = "block";
-  } else {
-    document.getElementById("back-to-top").style.display = "none";
-  }
-}
 
 (simplyNavDuty => {
 
