@@ -1194,17 +1194,17 @@ input#myInput:focus {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 1330px) and (min-width: 1079px) 
+@media screen and (max-width: 1330px) and (min-width: 1089px) 
 {
   ul.slides {
     height: 520px;
   }
   #intro .intro-info {
-   top: 20px;
+   top: 35px;
   }
-  .circle_blue {
+  /* .circle_blue {
     margin-bottom: 150px;
-  }
+  } */
   .carousel-dots {
     z-index: 999;
     text-align: center;
@@ -1213,15 +1213,18 @@ input#myInput:focus {
   }
 }
 
-@media screen and (max-width: 1080px) and (min-width: 992px)  {
+@media screen and (max-width: 1090px) and (min-width: 992px)  {
   ul.slides {
     height: 580px;
   }
   #intro .intro-info {
-   top: 20px;
+   top: 10px;
   }
   .circle_blue {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
+  }
+  .tag-line {
+    margin-top: 75px;
   }
   .carousel-dots {
     z-index: 999;
