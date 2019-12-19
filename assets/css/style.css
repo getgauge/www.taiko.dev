@@ -601,7 +601,7 @@ h6 {
 --------------------------------*/
 
 #services {
-  padding: 60px 0 40px 0;
+  padding: 50px 0 40px 0;
 }
 
 #services .box {
@@ -1589,6 +1589,7 @@ input#myInput:focus {
   #testimonials .testimonial-item h3 span.sub-title {
     font-size: 14px;
     line-height: 19px;
+    padding-right: 10px;
   }
   #testimonials .testimonial-item p {
    padding: 0px;
