@@ -1318,6 +1318,7 @@ input#myInput:focus {
 	.third-block {
     order: 2;
     position: relative;
+    padding-left: 0px;
   }
   #testimonials .testimonial-item p {
     background: transparent;
@@ -1497,7 +1498,7 @@ input#myInput:focus {
     justify-content: center;
     margin: 0 auto;
     border-radius: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   #intro {
     padding-bottom: 0px;
@@ -1612,9 +1613,6 @@ input#myInput:focus {
   }
   button.toggle-nav {
     display: block;
-  }
-  .circle_blue {
-    margin: 20px auto;
   }
 }
 
