@@ -1613,5 +1613,8 @@ input#myInput:focus {
   button.toggle-nav {
     display: block;
   }
+  .circle_blue {
+    margin: 20px auto;
+  }
 }
 
