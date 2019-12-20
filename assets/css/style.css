@@ -1053,7 +1053,7 @@ ul.slides {
   padding: 0;
   overflow: hidden;
   list-style: none;
-  height: 420px;
+  height: 440px;
 }
 
 .slides * {
@@ -1129,7 +1129,7 @@ ul.slides input {
   z-index: 999;
   text-align: center;
   position: relative;
-  top:392px;
+  top:410px;
 }
 
 .carousel-dots .carousel-dot {
@@ -1193,10 +1193,10 @@ input#myInput:focus {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 1330px) and (min-width: 1106px) 
+@media screen and (max-width: 1323px) and (min-width: 1106px) 
 {
   ul.slides {
-    height: 520px;
+    height: 500px;
   }
   #intro .intro-info {
    top: 75px;
@@ -1208,13 +1208,13 @@ input#myInput:focus {
     z-index: 999;
     text-align: center;
     position: relative;
-    top: 475px;
+    top: 470px;
   }
 }
 
 @media screen and (max-width: 1105px) and (min-width: 992px)  {
   ul.slides {
-    height: 580px;
+    height: 585px;
   }
   #intro .intro-info {
    top: 50px;
@@ -1229,7 +1229,7 @@ input#myInput:focus {
     z-index: 999;
     text-align: center;
     position: relative;
-    top: 520px;
+    top: 555px;
   }
 }
 
