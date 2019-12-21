@@ -313,7 +313,7 @@ h6 {
   text-transform: capitalize;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
+  padding: 4px 32px 10px 32px;
   border-radius: 2px;
   transition: 0.5s;
   color: #25282D;
@@ -1020,7 +1020,7 @@ button.owl-next span {
   position: absolute;
   z-index: 1;
   bottom: 150%;
-  left: 50%;
+  left: 0px;
   margin-left: -75px;
   opacity: 0;
   transition: opacity 0.3s;
