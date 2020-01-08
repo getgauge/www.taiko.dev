@@ -890,8 +890,32 @@ h6 {
   justify-content: center;
   margin: 40px auto;
   border-radius: 50%;
-  margin-bottom: 110px;
+  margin-bottom: 90px;
 }
+
+.githubstar-box .github-icon1 {
+  background: url(../img/github-brands.svg) no-repeat 0 0;  
+  padding-left: 10px;
+  width: 40px;
+  height: 18px;
+  fill: #29cde7;; 
+}
+.githubstar-box .github-star-icon1 {
+  background: url(../img/star-solid.svg) no-repeat 0 0;  
+  padding-left: 10px;
+  width: 40px;
+  height: 18px;
+  fill:#fff;
+}
+.github-star-block {
+  border:1px solid #29cde7;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width:120px;
+}
+
 
 .githubstar-box .github-icon {
   background: url(../img/github_star.svg) no-repeat 0 0;
@@ -1220,7 +1244,7 @@ input#myInput:focus {
    top: 50px;
   }
   .circle_blue {
-    margin-bottom: 110px;
+    margin-bottom: 90px;
   }
   .tag-line {
     margin-top: 75px;
@@ -1280,7 +1304,7 @@ input#myInput:focus {
     justify-content: center;
     margin: 40px auto;
     border-radius: 50%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
   #intro .intro-info h2 {
     font-size: 42px;
@@ -1459,7 +1483,7 @@ input#myInput:focus {
     top: 398px;
   }
   .circle_blue {
-    margin-bottom: 75px;
+    margin-bottom: 55px;
   }
 }
 
@@ -1498,7 +1522,7 @@ input#myInput:focus {
     justify-content: center;
     margin: 0 auto;
     border-radius: 50%;
-    margin-bottom: 70px;
+    margin-bottom: 0px;
   }
   #intro {
     padding-bottom: 0px;
