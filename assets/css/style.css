@@ -1110,7 +1110,15 @@ ul.slides input {
   top: 0;
   opacity: 0;
   transition: all .7s ease-in-out;
-  margin-top: 0px;
+  max-width: 82%;
+  margin: 0px auto;
+  padding-left: 160px;
+}
+
+.slide-image-left-arrow {
+  transform: rotate(180deg);
+  display: inline-block;
+  margin-top: 17px;
 }
 
 .carousel-controls {
@@ -1123,9 +1131,9 @@ ul.slides input {
   color: #2BD3EF;
 }
 
-.second-block {
+/* .second-block {
   max-width: 780px;
-}
+} */
 
 .carousel-controls label {
   display: none;
@@ -1260,6 +1268,9 @@ input#myInput:focus {
     position: relative;
     top: 555px;
   }
+  .slide-image {
+    padding-left: 40px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -1276,7 +1287,7 @@ input#myInput:focus {
   button.toggle-nav {
     display: none;
   }
-  
+ 
 }
 
 @media (max-width: 991px) {
@@ -1391,6 +1402,9 @@ input#myInput:focus {
     position: relative;
     top: 360px;
   }
+  .slide-image {
+    padding-left: 60px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1489,6 +1503,9 @@ input#myInput:focus {
   }
   .circle_blue {
     margin-bottom: 55px;
+  }
+  .slide-image {
+    padding-left: 0px;
   }
 }
 
@@ -1642,6 +1659,10 @@ input#myInput:focus {
   }
   button.toggle-nav {
     display: block;
+  }
+  .slide-image {
+    padding-left: 0px;
+    max-width: 100%;
   }
 }
 
