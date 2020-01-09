@@ -685,7 +685,7 @@ h6 {
 --------------------------------*/
 
 #testimonials {
-  padding: 90px 50px 30px 50px;
+  padding: 90px 120px 30px 120px;
 }
 
 #testimonials .section-header {
@@ -1110,9 +1110,9 @@ ul.slides input {
   top: 0;
   opacity: 0;
   transition: all .7s ease-in-out;
-  max-width: 82%;
+  max-width: 92%;
   margin: 0px auto;
-  padding-left: 160px;
+  padding-left: 15px;
 }
 
 .slide-image-left-arrow {
@@ -1123,7 +1123,7 @@ ul.slides input {
 
 .carousel-controls {
   position: absolute;
-  top: 28%;
+  top: 16%;
   left: 0;
   right: 0;
   z-index: 99;
@@ -1404,6 +1404,10 @@ input#myInput:focus {
   }
   .slide-image {
     padding-left: 60px;
+  }
+  .carousel-controls {
+    position: absolute;
+    top: 24%;
   }
 }
 
