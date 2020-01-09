@@ -283,13 +283,18 @@ h6 {
 
 .copy-command {
   font-size: 24px;
-  font-family: courier!important;
-  border: 2px solid #2BD3EF;
-  color: #fff;
-  padding: 25px 15px;
+  font-family: courier !important;
+  border: 2px solid
+  #2BD3EF;
+  color:
+  #fff;
+  padding: 15px 0px;
   border-radius: 9px;
-  background: #25282D;
+  background:
+  #25282D;
   margin-left: 10px;
+  width: 537px;
+  margin: 0px auto;
 }
 
 .copy-command input {
