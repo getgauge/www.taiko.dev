@@ -1082,7 +1082,7 @@ ul.slides {
   padding: 0;
   overflow: hidden;
   list-style: none;
-  height: 440px;
+  height: 390px; /*---height 410 with courosal icons--*/
 }
 
 .slides * {
@@ -1129,6 +1129,7 @@ ul.slides input {
   z-index: 99;
   font-size: 75px;
   color: #2BD3EF;
+  display:none;
 }
 
 /* .second-block {
@@ -1167,6 +1168,7 @@ ul.slides input {
   text-align: center;
   position: relative;
   top:410px;
+  display:none;
 }
 
 .carousel-dots .carousel-dot {
@@ -1673,7 +1675,7 @@ input#myInput:focus {
     z-index: 9999;
   }
   ul.slides {
-    height: 525px;
+    height: 460px; /*---525 with courasol icons--- */
     margin-top: 0px;
   }
   #intro .intro-info h4 {
