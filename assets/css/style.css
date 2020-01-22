@@ -1235,6 +1235,7 @@ input#myInput:focus {
   left: 10px;
   border-radius: 4px;
   height: 45px;
+  margin-right: 10px;
 }
 .githubstar-inner-block {
   position: relative;
@@ -1267,6 +1268,7 @@ input#myInput:focus {
   width: 50px;
   padding: 5px 6px;
   font-weight: 600;
+  height: 34px;
 }
 
 .github-star-count-value:before {
@@ -1509,6 +1511,12 @@ input#myInput:focus {
     text-align: center;
     position: relative;
     top: 377px;
+  }
+  .githubstar-inner-block {
+    margin-left: -8px;
+  }
+  #header .logo h1 {
+    margin-left: -23px;
   }
 }
 
