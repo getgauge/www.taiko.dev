@@ -1238,6 +1238,7 @@ input#myInput:focus {
   border-radius: 4px;
   height: 45px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .githubstar-inner-block {
   position: relative;
