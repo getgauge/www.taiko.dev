@@ -1272,15 +1272,19 @@ input#myInput:focus {
   padding: 5px 6px;
   font-weight: 600;
   height: 34px;
+  z-index: 100;
 }
 
-.github-star-count-value:before {
-  content: ' \25C0';
-  color: #fff;
-  left: -10px;
+.github-star-count-value:after {
+  content: '';
   position: absolute;
-  font-size: 13px;
-  top: 9px;
+  width: 12.5px;
+  height: 12.5px;
+  transform: rotate(45deg);
+  background: #fff;
+  left: -5px;
+  top: 11px;
+  z-index: -1;
 }
 .githubstar-box span {
     padding: 4px 8px!important;
