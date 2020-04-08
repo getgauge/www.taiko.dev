@@ -1,0 +1,35 @@
+{
+  "name": "www.taiko.dev",
+  "version": "1.0.0",
+  "description": "Project to compile website assets",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getgauge/www.taiko.dev.git"
+  },
+  "keywords": [
+    "taiko",
+    "website"
+  ],
+  "author": "ThoughtWorks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getgauge/www.taiko.dev/issues"
+  },
+  "homepage": "https://github.com/getgauge/www.taiko.dev#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
