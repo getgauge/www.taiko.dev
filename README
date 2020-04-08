@@ -1,0 +1,25 @@
+Source code for the Taiko website at
+
+  https://taiko.dev
+
+To run the site locally please clone this repository
+install Node.js and run (only the first time)
+
+  npm install
+
+to install dependencies and then.
+
+  npm start
+
+To deploy the website run
+
+  npm run build
+
+this will compile the website to the folder
+"dist/"
+
+
+This project uses sass the main .scss file is 
+located at
+
+  ./assets/css/style.scss
