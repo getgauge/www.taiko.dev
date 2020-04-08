@@ -1,3 +1,6 @@
+import '@fortawesome/fontawesome-free/css/all.css'
+import './assets/css/style.scss' // Import our scss file
+
 function copyCommand() {
   var copyText = document.getElementById("myInput");
   copyText.select();
@@ -14,40 +17,37 @@ function outFunc() {
   tooltip.innerHTML = "Copy to clipboard";
 }
 
-function preloadFunc() {
-  headerNav();
-  getGithubStarCount();
-}
 
-function getGithubStarCount() {
-  const githubCount = document.getElementById("github-star-count");
+(header => {
 
-  fetch('https://api.github.com/repos/getgauge/taiko', {
-    method: 'get'
-  })
-  .then(response => response.json())
-  .then(function (response) {
-    githubCount.textContent = response.stargazers_count;
-  })
-  .catch(err => {
-    githubCount.textContent = "1.7K";
-  });
-  
-}
+  function getGithubStarCount() {
+    const githubCount = document.getElementById("github-star-count");
 
-window.onscroll = function () {
-  headerNav();
-}
+    fetch('https://api.github.com/repos/getgauge/taiko', {
+        method: 'get'
+      })
+      .then(response => response.json())
+      .then(function(response) {
+        githubCount.textContent = response.stargazers_count;
+      })
+      .catch(err => {
+        githubCount.textContent = "1.7K";
+      });
 
-function headerNav() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    document.getElementById("header").className = "header-scrolled";
-  } else {
-    document.getElementById("header").className = "";
   }
 
-}
+  function headerNav() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      document.getElementById("header").className = "header-scrolled";
+    } else {
+      document.getElementById("header").className = "";
+    }
 
+  }
+
+  window.addEventListener("load", getGithubStarCount);
+  window.addEventListener("scroll", headerNav);
+})();
 
 (simplyNavDuty => {
 
@@ -77,7 +77,7 @@ function headerNav() {
   };
 
   // To default
-  toDefaults = () => {
+  function toDefaults() {
     // Close nav menu
     sideNav.classList.remove('-open');
     burger.classList.remove('open');
@@ -99,7 +99,7 @@ function headerNav() {
 
 
   // when browser is resized (past breakpoint) reset to defaults
-  (function () {
+  (function() {
 
     window.addEventListener("resize", resizeThrottler, false);
     let resizeTimeout;
@@ -107,7 +107,7 @@ function headerNav() {
     function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
       if (!resizeTimeout) {
-        resizeTimeout = setTimeout(function () {
+        resizeTimeout = setTimeout(function() {
           resizeTimeout = null;
           actualResizeHandler();
 
