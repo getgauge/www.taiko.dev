@@ -1,43 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+@import "_font";
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-@mixin poppins-font-face($font) {
-  font-family: $font;
-  src: url("../fonts/poppins-latin/#{$font}.ttf") format('truetype'),
-  url("../fonts/poppins-latin/#{$font}.otf") format('opentype');
-}
-
-@mixin open-sans-font-face($font) {
-  font-family: $font;
-  src: url("../fonts/open-sans/#{$font}.ttf") format('truetype');
-}
-
-@font-face {
-  @include poppins-font-face(PoppinsLatin-Bold);
-}
-
-@font-face {
-  @include poppins-font-face(PoppinsLatin-Medium);
-}
-
-@font-face {
-  @include poppins-font-face(PoppinsLatin-SemiBold);
-}
-
-@font-face {
-  @include open-sans-font-face(OpenSans-Regular);
-}
-
-@font-face {
-  @include open-sans-font-face(OpenSans-SemiBold);
-}
-
-@font-face {
-  @include open-sans-font-face(OpenSans-Bold);
-}
 
 body {
   background: #fff;
