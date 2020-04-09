@@ -4,10 +4,6 @@
 # General
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
-
-$primary-regular-font: 'Open Sans', sans-serif;
-
 @mixin poppins-font-face($font) {
   font-family: $font;
   src: url("../fonts/poppins-latin/#{$font}.ttf") format('truetype'),
@@ -46,7 +42,7 @@ $primary-regular-font: 'Open Sans', sans-serif;
 body {
   background: #fff;
   color: #25282D;
-  font-family: $primary-regular-font;
+  font-family: OpenSans-Regular;
 }
 
 a {
