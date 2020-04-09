@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
 
+$primary-regular-font: 'Open Sans', sans-serif;
+
 @font-face {
   font-family: 'PoppinsLatin-Bold';
   src: url('../fonts/poppins-latin/Poppins-Bold.ttf') format('truetype'),
@@ -42,7 +44,7 @@
 body {
   background: #fff;
   color: #25282D;
-  font-family: "Open Sans", sans-serif;
+  font-family: $primary-regular-font;
 }
 
 a {
