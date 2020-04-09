@@ -8,37 +8,39 @@
 
 $primary-regular-font: 'Open Sans', sans-serif;
 
-@font-face {
-  font-family: 'PoppinsLatin-Bold';
-  src: url('../fonts/poppins-latin/Poppins-Bold.ttf') format('truetype'),
-    url('../fonts/poppins-latin/PoppinsLatin-Bold.otf') format('opentype');
+@mixin poppins-font-face($font) {
+  font-family: $font;
+  src: url("../fonts/poppins-latin/#{$font}.ttf") format('truetype'),
+  url("../fonts/poppins-latin/#{$font}.otf") format('opentype');
+}
+
+@mixin open-sans-font-face($font) {
+  font-family: $font;
+  src: url("../fonts/open-sans/#{$font}.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'PoppinsLatin-Medium';
-  src: url('../fonts/poppins-latin/Poppins-Medium.ttf') format('truetype'),
-    url('../fonts/poppins-latin/PoppinsLatin-Medium.otf') format("opentype");
+  @include poppins-font-face(PoppinsLatin-Bold);
 }
 
 @font-face {
-  font-family: 'PoppinsLatin-SemiBold';
-  src: url('../fonts/poppins-latin/PoppinsLatin-SemiBold.ttf') format('truetype'),
-    url('../fonts/poppins-latin/PoppinsLatin-SemiBoldItalic.otf') format("opentype");
+  @include poppins-font-face(PoppinsLatin-Medium);
 }
 
 @font-face {
-  font-family: 'OpenSans-Regular';
-  src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+  @include poppins-font-face(PoppinsLatin-SemiBold);
 }
 
 @font-face {
-  font-family: 'OpenSans-SemiBold';
-  src: url('../fonts/open-sans/OpenSans-Semibold.ttf') format('truetype');
+  @include open-sans-font-face(OpenSans-Regular);
 }
 
 @font-face {
-  font-family: 'OpenSans-Bold';
-  src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+  @include open-sans-font-face(OpenSans-SemiBold);
+}
+
+@font-face {
+  @include open-sans-font-face(OpenSans-Bold);
 }
 
 body {
