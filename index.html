@@ -1,219 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="robots" content="noindex">
-  <title>Taiko, free and open source browser test automation</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="testing, automation, open source, browsers" name="keywords">
-  <meta content="Free and open source test automation tool" name="description">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Taiko, free and open source browser test automation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="testing, automation, open source, browsers" name="keywords">
+    <meta content="Free and open source test automation tool" name="description">
 
-  <!-- Favicons -->
-  <link href="assets/img/taiko_favicon.ico" rel="icon">
-</head>
+    <!-- Favicons -->
+    <link href="assets/img/taiko_favicon.ico" rel="icon">
+  </head>
 
-<body>
-  <!--==========================
+  <body>
+    <!--==========================
   Header
   ============================-->
-  <header id="header">
+    <header id="header">
 
-    <div class="container-fluid">
+      <div class="container-fluid">
 
-      <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light">
-          <a href="#intro" class="scrollto">
-            <img src="./assets/img/taiko_logo.svg" alt="taiko"></a>
-        </h1>
-        <!-- <a href="#header" class="scrollto"><img src="assets/img/taiko-logo.png" alt="" class="img-fluid"></a> -->
-      </div>
+        <div class="logo float-left">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <h1 class="text-light">
+            <a href="#intro" class="scrollto">
+              <img src="./assets/img/taiko_logo.svg" alt="taiko"></a>
+          </h1>
+          <!-- <a href="#header" class="scrollto"><img src="assets/img/taiko-logo.png" alt="" class="img-fluid"></a> -->
+        </div>
 
-      <nav class="nav main-nav float-right d-lg-block">
-        <button class="toggle-nav" type="button" aria-label="Toggle Menu">
-          <div class="burger -squeeze -offset">
-            <span class="burger-lines"></span>
-          </div>
-        </button>
-        <ul class="nav-list" role="navigation">
-          <div class="list -left">
-            <li class="item">
-              <a href="//docs.taiko.dev">Documentation</a>
-            </li>
-            <li class="githubstar-icon-block item" onclick="window.open('https://github.com/getgauge/taiko')" >
-              <span class="githubstar-inner-block">
-                <i class="fab fa-github"></i>
-                <i class="fas fa-star"></i>
-              </span>
-              <span class="github-star-count-value" id="github-star-count"></span>
-            </li>
-            <!-- <li class="githubstar-box item">
+        <nav class="nav main-nav float-right d-lg-block">
+          <button class="toggle-nav" type="button" aria-label="Toggle Menu">
+            <div class="burger -squeeze -offset">
+              <span class="burger-lines"></span>
+            </div>
+          </button>
+          <ul class="nav-list" role="navigation">
+            <div class="list -left">
+              <li class="item">
+                <a href="//docs.taiko.dev">Documentation</a>
+              </li>
+              <li class="githubstar-icon-block item" onclick="window.open('https://github.com/getgauge/taiko')" >
+                <span class="githubstar-inner-block">
+                  <i class="fab fa-github"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="github-star-count-value" id="github-star-count"></span>
+              </li>
+              <!-- <li class="githubstar-box item">
               <a aria-label="Link to Taiko GithHub repository" href="https://github.com/getgauge/taiko">
                 <span class="github-icon"></span>
                 <span class="github-star-count" id="github-star-count"></span>
               </a>
             </li> -->
-          </div>
-        </ul>
-      </nav>
-      <!-- .main-nav -->
-
-    </div>
-  </header>
-  <!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro" class="clearfix">
-    <div class="container h-100">
-      <div class="circle_blue"></div>
-      <div class="row justify-content-center align-self-center">
-        <div class="col-md-12 intro-info order-md-first order-last">
-          <h2>Reliable Browser Automation</h2>
-          <p>Taiko is an open source node.js library for <br/> testing modern web applications</p>
-          <div class="col-md-12 copy-command" id="copy-command">
-            <input type="text" value="$ npm install -g taiko" id="myInput" readonly>
-            <div class="tooltip">
-              <button onclick="copyCommand()" onmouseout="outFunc()" class="btn-get-started scrollto">
-                <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-                Copy
-              </button>
             </div>
-          </div>
+          </ul>
+        </nav>
+        <!-- .main-nav -->
 
-          <!-- <div class="tag-line">
-            <h4>Everything you need for reliable end to end testing</h4>
-          </div> -->
-
-        </div>
       </div>
-    </div>
-  </section>
-  <!-- #intro -->
-
-  <main id="main">
+    </header>
+    <!-- #header -->
 
     <!--==========================
-      Features Section
-    ============================-->
-    <section id="services" class="section-bg-white">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Features</h3>
-        </header>
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <a href="https://github.com/getgauge/taiko#smart-selectors">
-              <div class="box">
-                <div class="features-img-block"><img src="assets/img/smart_selectors_blue.svg"
-                    class="features-img img-fluid" alt=""></div>
-                <h4 class="title">Smart selectors</h4>
-                <p class="description">Taiko’s API treats the browser like a black box. 
-                Write test scripts by looking at a web page without inspecting 
-                it’s source code.</p>
+    Intro Section
+  ============================-->
+    <section id="intro" class="clearfix">
+      <div class="container h-100">
+        <div class="circle_blue"></div>
+        <div class="row justify-content-center align-self-center">
+          <div class="col-md-12 intro-info order-md-first order-last">
+            <h2>Reliable Browser Automation</h2>
+            <p>Taiko is an open source node.js library for <br/> testing modern web applications</p>
+            <div class="col-md-12 copy-command" id="copy-command">
+              <input type="text" value="$ npm install -g taiko" id="myInput" readonly>
+              <div class="tooltip">
+                <button onclick="copyCommand()" onmouseout="outFunc()" class="btn-get-started scrollto">
+                  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                Copy
+              </button>
               </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
-            <a href="https://github.com/getgauge/taiko#handle-xhr-and-dynamic-content">
-              <div class="box">
-                <div class="features-img-block"><img src="assets/img/waits_blue.svg" class="features-img img-fluid"
-                    alt=""></div>
-                <h4 class="title">Implicit waits</h4>
-                <p class="description">Taiko’s API understands XHR requests, dynamic content and 
-                implicitly waits for elements to load on the page before moving on to the next action.</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <a href="https://github.com/getgauge/taiko#interactive-recorder">
-              <div class="box">
-                <div class="features-img-block"><img src="assets/img/recorder_blue.svg" class="features-img img-fluid"
-                    alt=""></div>
-                <h4 class="title">Interactive recorder</h4>
-                <p class="description">Record and write maintainable test scripts within seconds using Taiko's 
-                unique recorder which is a REPL to automate the browser.</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <a href="https://github.com/getgauge/taiko#requestresponse-stubbing-and-mocking">
-              <div class="box">
-                <div class="features-img-block"><img src="assets/img/request_blue.svg" class="features-img img-fluid"
-                    alt=""></div>
-                <h4 class="title">Request & response stubbing</h4>
-                <p class="description">Mock and stub requests from the browser with 
-                Taiko's <code>intercept</code> API that makes managing test environments and data 
-                simpler.</p>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
-    <!-- #features -->
+    <!-- #intro -->
 
-  </main>
+    <main id="main">
 
-  <!--==========================
+      <!--==========================
+      Features Section
+    ============================-->
+      <section id="services" class="section-bg-white">
+        <div class="container">
+
+          <header class="section-header">
+            <h3>Features</h3>
+          </header>
+
+          <div class="row">
+
+            <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
+              <a href="https://github.com/getgauge/taiko#smart-selectors">
+                <div class="box">
+                  <div class="features-img-block"><img src="assets/img/smart_selectors_blue.svg"
+                    class="features-img img-fluid" alt=""></div>
+                  <h4 class="title">Smart selectors</h4>
+                  <p class="description">Taiko’s API treats the browser like a black box. 
+                Write test scripts by looking at a web page without inspecting 
+                it’s source code.</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
+              <a href="https://github.com/getgauge/taiko#handle-xhr-and-dynamic-content">
+                <div class="box">
+                  <div class="features-img-block"><img src="assets/img/waits_blue.svg" class="features-img img-fluid"
+                    alt=""></div>
+                  <h4 class="title">Implicit waits</h4>
+                  <p class="description">Taiko’s API understands XHR requests, dynamic content and 
+                implicitly waits for elements to load on the page before moving on to the next action.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+              <a href="https://github.com/getgauge/taiko#interactive-recorder">
+                <div class="box">
+                  <div class="features-img-block"><img src="assets/img/recorder_blue.svg" class="features-img img-fluid"
+                    alt=""></div>
+                  <h4 class="title">Interactive recorder</h4>
+                  <p class="description">Record and write maintainable test scripts within seconds using Taiko's 
+                unique recorder which is a REPL to automate the browser.</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+              <a href="https://github.com/getgauge/taiko#requestresponse-stubbing-and-mocking">
+                <div class="box">
+                  <div class="features-img-block"><img src="assets/img/request_blue.svg" class="features-img img-fluid"
+                    alt=""></div>
+                  <h4 class="title">Request & response stubbing</h4>
+                  <p class="description">Mock and stub requests from the browser with 
+                Taiko's <code>intercept</code> API that makes managing test environments and data 
+                simpler.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- #features -->
+
+    </main>
+
+    <!--==========================
     Footer
   ============================-->
-  <footer id="footer" class="section-bg">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 footer-content">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="footer-links">
-                  <h4>Product</h4>
-                  <ul>
-                    <li>
-                      <a aria-label="Taiko Documentation" href="https://docs.taiko.dev">Documentation</a>
-                    </li>
-                    <li>
-                      <a aria-label="Press kit" href="./assets/Taiko_logos.zip">Press kit</a>
-                    </li>
-                  </ul>
+    <footer id="footer" class="section-bg">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 footer-content">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                      <li>
+                        <a aria-label="Taiko Documentation" href="https://docs.taiko.dev">Documentation</a>
+                      </li>
+                      <li>
+                        <a aria-label="Taiko License" href="https://github.com/getgauge/taiko/blob/master/LICENSE">License</a>
+                      </li>                    
+                      <li>
+                        <a aria-label="Press kit" href="./assets/Taiko_logos.zip">Press kit</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="footer-links">
-                  <h4>Engage</h4>
-                  <ul>
-                    <li>
-                      <a aria-label="Spectrum, forums for support" href="https://spectrum.chat/taiko" class="icon_spectrum">Spectrum</a>
-                    </li>
-                    <li>
-                      <a aria-label="Instructions on how to contribute" href="https://github.com/getgauge/taiko/blob/master/CONTRIBUTING.md" class="icon_contribute">Contribute</a>
-                    </li>
-                  </ul>
+                <div class="col-sm-4">
+                  <div class="footer-links">
+                    <h4>Engage</h4>
+                    <ul>
+                      <li>
+                        <a aria-label="Spectrum, forums for support" href="https://spectrum.chat/taiko" class="icon_spectrum">Spectrum</a>
+                      </li>
+                      <li>
+                        <a aria-label="Instructions on how to contribute" href="https://github.com/getgauge/taiko/blob/master/CONTRIBUTING.md" class="icon_contribute">Contribute</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="footer-info">
-                  <img src="./assets/img/taiko_logo.svg" class="footer-logo" alt="taiko">
-                  <p>Taiko is MIT licensed free and open source software.</p>
+                <div class="col-sm-4">
+                  <div>
+                    <a href="https://www.netlify.com">
+                      <img style="width:125px; margin-bottom: 1em" 
+                      src="https://www.netlify.com/img/global/badges/netlify-dark.svg" 
+                      alt="Deploys by Netlify"/>
+                    </a>
+                  </div>
+                  <div class="footer-info">
+                    <img src="./assets/img/taiko_logo.svg" class="footer-logo" alt="taiko">
+                  </div>                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-  </footer>
-  <!-- #footer -->
+    </footer>
+    <!-- #footer -->
 
-  <!-- Template Main Javascript File -->
-  <script src="main.js"></script>
-</body>
+    <!-- Template Main Javascript File -->
+    <script src="main.js"></script>
+  </body>
 
 </html>
