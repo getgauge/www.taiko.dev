@@ -31,6 +31,6 @@
     "@fortawesome/fontawesome-free": "^5.13.1",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-purifycss": "^1.0.5",
-    "sass": "^1.26.9"
+    "sass": "^1.26.10"
   }
 }
