@@ -936,11 +936,11 @@ h6 {
 }
 
 .githubstar-box .github-icon {
-  background: url(../img/github_star.svg) no-repeat 0 0;
+  background: url(/assets/img/github_star.svg) no-repeat 0 0;
 }
 
 .githubstar-box .github-icon {
-  background: url(../img/github_star_count_dynamic.svg) no-repeat 0 0;
+  background: url(/assets/img/github_star_count_dynamic.svg) no-repeat 0 0;
   padding-left: 140px;
   width: 40px;
   height: 18px;
@@ -1006,19 +1006,19 @@ button.owl-next span {
 }
 
 .footer-content .icon_spectrum {
-  background: url(../img/footer-icons/icon_spectrum.png) no-repeat 0 12px;
+  background: url(/assets/img/footer-icons/icon_spectrum.png) no-repeat 0 12px;
   background-size: auto 22px;
 }
 
 .footer-content .icon_google {
-  background: url(../img/footer-icons/icon_google-group.png) no-repeat 0 10px;
+  background: url(/assets/img/footer-icons/icon_google-group.png) no-repeat 0 10px;
   background-size: auto 22px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .footer-content .icon_contribute {
-  background: url(../img/footer-icons/icon_contribute.png) no-repeat 0 10px;
+  background: url(/assets/img/footer-icons/icon_contribute.png) no-repeat 0 10px;
   background-size: auto 22px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1033,19 +1033,19 @@ button.owl-next span {
 .footer-content .icon_spectrum:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: url(../img/footer-icons/icon_spectrum_hover.png) no-repeat 0 12px;
+  background: url(/assets/img/footer-icons/icon_spectrum_hover.png) no-repeat 0 12px;
   background-size: auto 22px;
 }
 
 .footer-content .icon_google:hover {
-  background: url(../img/footer-icons/icon_google-group_hover.png) no-repeat 0 10px;
+  background: url(/assets/img/footer-icons/icon_google-group_hover.png) no-repeat 0 10px;
   background-size: auto 22px;
 }
 
 .footer-content .icon_contribute:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: url(../img/footer-icons/icon_contribute_hover.png) no-repeat 0 10px;
+  background: url(/assets/img/footer-icons/icon_contribute_hover.png) no-repeat 0 10px;
   background-size: auto 22px;
 }
 
@@ -1205,16 +1205,6 @@ input:checked+.slide-container .slide-image {
 
 input:checked+.slide-container .carousel-controls label {
   display: block;
-}
-
-input#img-1:checked~.carousel-dots label#img-dot-1,
-input#img-2:checked~.carousel-dots label#img-dot-2,
-input#img-3:checked~.carousel-dots label#img-dot-3,
-input#img-4:checked~.carousel-dots label#img-dot-4,
-input#img-5:checked~.carousel-dots label#img-dot-5,
-input#img-6:checked~.carousel-dots label#img-dot-6 {
-  opacity: 1;
-  background: #2BD3EF;
 }
 
 input:checked+.slide-container .nav label {
