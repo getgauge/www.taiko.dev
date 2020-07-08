@@ -1,11 +1,11 @@
 @mixin poppins-font-face($font) {
   font-family: $font;
-  src: url("../fonts/poppins-latin/#{$font}.ttf") format('truetype');
+  src: url("/assets/fonts/poppins-latin/#{$font}.ttf") format('truetype');
 }
 
 @mixin open-sans-font-face($font) {
   font-family: $font;
-  src: url("../fonts/open-sans/#{$font}.ttf") format('truetype');
+  src: url("/assets/fonts/open-sans/#{$font}.ttf") format('truetype');
 }
 
 @font-face {
