@@ -205,7 +205,7 @@ h6 {
   width: 145px;
   height: 45px;
   padding: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .main-pages {
@@ -643,6 +643,80 @@ h6 {
   font-size: 24px;
 }
 
+
+/* Taiko Book Section
+--------------------------------*/
+
+.book-cover {
+  margin-bottom: 60px;
+}
+
+.taiko-book-description {
+  margin-bottom: 40px;
+}
+
+.author-photo {
+  margin-bottom: 20px;
+}
+
+.taiko-book-title {
+  margin-bottom: 0;
+}
+
+.taiko-book-author {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.taiko-book-summary {
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.book-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2bd3ef;
+  border-color: #2bd3ef;
+  color: #25282D;
+  height: 60px;
+  width: 200px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.book-cta:active {
+  background-color: #0e7c9d;
+}
+
+.book-cta:hover {
+  color: #25282D;
+}
+
+
+@media (max-width: 767px) {
+  .book-cover {
+    margin-bottom: 60px;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .author-photo {
+  display: none;
+  }
+
+  .book-cta {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+
+} 
+
+
 /* Testimonials Section
 --------------------------------*/
 
@@ -732,7 +806,7 @@ h6 {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-info h3 {
