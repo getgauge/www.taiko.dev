@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-purifycss": "^1.0.5",
     "sass": "^1.26.10"
   }
 }
