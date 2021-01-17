@@ -544,7 +544,7 @@ h6 {
   color: #25282D;
   text-align: center;
   position: relative;
-  font-family: 'PoppinsLatin-Medium';
+  font-family: 'Poppins-Medium', sans-serif;
   margin-bottom: 70px;
 }
 
@@ -621,7 +621,8 @@ h6 {
   margin: 60px 0px 25px 0px;
   text-align: left;
   font-size: 26px;
-  font-family: 'PoppinsLatin-Medium';
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 #services .title a {
@@ -682,7 +683,8 @@ h6 {
 #testimonials .testimonial-item h3 span.sub-title {
   font-size: 18px;
   color: #fff;
-  font-family: 'PoppinsLatin-Medium';
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   display: block;
 }
 
@@ -1360,7 +1362,8 @@ input#myInput:focus {
 
   #intro .intro-info p {
     font-size: 30px;
-    font-family: 'PoppinsLatin-Medium';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     line-height: 36px;
   }
 
@@ -1410,7 +1413,8 @@ input#myInput:focus {
 
   #testimonials .testimonial-item .third-block h4 {
     font-size: 18px;
-    font-family: 'PoppinsLatin-Medium';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     padding: 0px;
     position: absolute;
     top: 53%;
@@ -1534,8 +1538,8 @@ input#myInput:focus {
 
   #intro .intro-info p {
     font-size: 30px;
-    font-family: 'PoppinsLatin-Medium';
-  }
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;  }
 
   .section-header p {
     width: 100%;
@@ -1596,8 +1600,8 @@ input#myInput:focus {
     margin-bottom: 20px;
     font-size: 24px;
     text-align: center;
-    font-family: 'PoppinsLatin-Medium';
-    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;    line-height: 30px;
     padding: 0px 20px;
     margin-top: 80px;
   }

@@ -1,4 +1,3 @@
-import '@fortawesome/fontawesome-free/css/all.css'
 import './assets/css/style.scss' // Import our scss file
 
 function copyCommand() {
