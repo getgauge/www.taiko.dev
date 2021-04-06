@@ -1,4 +1,5 @@
 import './assets/css/style.scss' // Import our scss file
+import '@fortawesome/fontawesome-free/css/all.css'
 
 function copyCommand() {
   var copyText = document.getElementById("myInput");
