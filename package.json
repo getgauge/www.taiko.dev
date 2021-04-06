@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/getgauge/www.taiko.dev#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
-    "popper.js": "^1.16.1",
-    "@fortawesome/fontawesome-free": "^5.14.0"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
