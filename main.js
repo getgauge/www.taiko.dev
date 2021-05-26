@@ -1,17 +1,6 @@
 import './assets/css/style.scss' // Import our scss file
 import '@fortawesome/fontawesome-free/css/all.css'
 
-function copyCommand() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-
-  var tooltip = document.getElementById("myTooltip");
-  //tooltip.innerHTML = "Copied: " + copyText.value;
-  tooltip.innerHTML = "Copied!";
-}
-
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copy to clipboard";
