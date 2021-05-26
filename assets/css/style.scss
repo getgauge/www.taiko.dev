@@ -249,7 +249,7 @@ h6 {
   text-shadow: 0px 1px 10px rgba(0, 0, 0, .6);
 }
 
-.copy-command {
+.install-command {
   font-size: 24px;
   font-family: courier !important;
   border: 2px solid #2BD3EF;
@@ -264,7 +264,7 @@ h6 {
   margin: 0px auto;
 }
 
-.copy-command input {
+.install-command input {
   font-size: 24px;
   font-family: courier !important;
   color: #fff;
@@ -1330,7 +1330,7 @@ input#myInput:focus {
     padding-top: 30px;
   }
 
-  .copy-command {
+  .install-command {
     display: none;
   }
 
